@@ -1,0 +1,27 @@
+{
+    "commands": {
+        "hello": {
+            "output": "Hello %{u}! You are using CodeDoBo version %{v} by %{d} (https://github.com/codedobo). Discord api version: %{r}! \r\nUse `modules` to see all modules!"
+        },
+        "ping": {
+            "output": "Pong! :)"
+        },
+        "language": {
+            "set":"Successfully set the language to `%{l}`!",
+            "info":"Current language: `%{l}`",
+            "usage":"Usage: `language [<Language>]`"
+        },
+        "modules": {
+            "output": "You are using %{c} modules: %{m}! \r\nUse `module <Module>` for help",
+            "delimiter": ", ",
+            "notexist": "The module %{m} does not exist!",
+            "usage": "Usage: `uno modules [<Module>]`",
+            "null":":x: No help for this module :x:"
+        },
+        "help":{
+            "title":"Quiz module help",
+            "description":"`quiz` \nGet the help of this module \n`quiz info` \nGet info about the configuration \n`quiz chat <Chat-ID>` \nSet the solution chat \n`quiz create` \nCreate a new quiz.",
+            "color":3000534
+        }
+    }
+}
